@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivBinar"
+        android:layout_width="match_parent"
+        android:layout_height="270dp" />
+
+    <Button
+        android:id="@+id/btnLoadImage"
+        android:text="Load Image"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCheckLocation"
+        android:text="Check Location"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnMoveActivity"
+        android:text="Move Activity"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
