@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 class LifecycleActivity: AppCompatActivity() {
 
-    // ada 7 tahapan life cyle : onCreate, onStart, onResume, onPause, onStop, onDestroy
+    // ada 7 tahapan life cyle : onCreate, onStart, onResume, onPause, onStop, onRestart, onDestroy
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
